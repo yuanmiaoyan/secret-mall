@@ -1,0 +1,77 @@
+/* Empty. Add your own CSS if you like */
+.box img{
+  width: 100%;
+}
+.col-offset-3{
+  margin-left: 3.3%;
+}
+.col-45{
+  width: 45%;
+}
+.col-60{
+	width: 60%;
+}
+.col-100{
+	width: 100%;
+}
+.item img{
+  width: 100%;
+  display: block
+}
+.index .item{
+  float: left;
+  margin-bottom: 15px;
+}
+.index-title{
+  text-align: center;
+  color: #666;
+}
+.index-detail img{
+  width: 100%;
+}
+.index h4{
+  font-size: 20px;
+  color: #4b8bf4;
+}
+.index h5{
+  font-size: 18px;
+}
+.clothes-color{
+  height: 35px;
+  line-height: 35px;
+}
+.item-select select {
+  right: auto;
+  max-width:100%;
+}
+.item-select option {
+  direction: inherit;
+}
+.float{
+  float: left;
+}
+.index-detail h5{
+  font-size: 20px;
+}
+.index-detail button{
+  font-size: 20px;
+}
+.row{
+  margin-bottom: 1em;
+}
+.size h2{
+  font-size: 14px;
+  line-height: 26px;
+}
+.col-93{
+  width: 93%;
+}
+.list .font-size-16{
+	font-size:16px;
+}
+.list .item-complex .item-content{
+	padding-right: 16px;
+}
+.list .item-icon-right .icon {
+    right: 21px;
+}

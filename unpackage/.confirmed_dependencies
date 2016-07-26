@@ -1,0 +1,19 @@
+{
+	"index.html": {
+		"resources": [
+			"js/app.js",
+			"lib/ionic/js/ionic.bundle.js",
+			"lib/ionic/css/ionic.css",
+			"templates/tab-account.html",
+			"js/services.js",
+			"templates/tab-chats.html",
+			"css/style.css",
+			"templates/love-detail.html",
+			"templates/chat-detail.html",
+			"js/controllers.js",
+			"templates/shipping.html",
+			"templates/address.html",
+			"templates/order.html"
+		]
+	}
+}

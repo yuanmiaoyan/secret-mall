@@ -1,0 +1,29 @@
+<ion-view view-title="Secret mall">
+  <ion-content>
+    <ion-slide-box auto-play="true" does-continue="true">
+      <ion-slide>
+        <div class="box blue">
+          <img src="./img/banner1.jpg">
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="box yellow">
+          <img src="./img/banner2.jpg">
+        </div>
+      </ion-slide>
+      <ion-slide on-slide-changed="slideHasChanged(index)">
+        <div class="box pink">
+          <img src="./img/banner3.jpg">
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+    <h2 class="index-title">U LIKE ↓</h2>
+    <ion-list class="index">
+      <ion-item ng-repeat="dash in dashes" class="col col-45 col-offset-3">
+        <a href="#/tab/dash/{{dash.id}}"><img ng-src="{{dash.img}}"></a>
+        <h4>{{dash.title}}</h4>
+        <h5>{{dash.price}}</h5>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

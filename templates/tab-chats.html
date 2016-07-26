@@ -1,0 +1,39 @@
+<ion-view view-title="Cart">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-thumbnail-left" ng-repeat="chat in chats" type="item-text-wrap" >
+        <img ng-src="{{chat.face}}">
+        <h2>{{chat.name}}</h2>
+        <p><i class="ion-stop" ng-class="chat.color"></i> &nbsp;&nbsp;{{chat.lastText}}</p>
+        <div class="list clearfix">
+		      <label class="item item-input item-select col col-40 clothes-color float">
+		        <select>
+		          <option selected>1</option>
+		          <option>2</option>
+		          <option>3</option>
+		        </select>
+		      </label>
+		      <div class="col col-60 float" align="right" >
+		      	{{chat.price}}
+		      </div>
+	      </div>
+        <!--<i class="icon ion-chevron-right icon-accessory"></i>-->
+
+        <ion-option-button class="button-assertive" ng-click="remove(chat)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+      <ion-item class="stable-bg item-icon-right">
+      	Shipping
+        <i class="icon font-size-16"><></></i>
+      </ion-item>
+      <ion-item class="stable-bg item-icon-right">
+      	<b>Total</b>
+        <i class="icon font-size-16">$66</i>
+      </ion-item>
+    </ion-list>
+    <div class="padding">
+    	<a href="#/tab/address" class="button button-assertive col col-100">checkout</a>
+    </div>
+  </ion-content>
+</ion-view>
